@@ -1,0 +1,32 @@
+# --- Environments ---
+.venv/
+.venv-kohya/
+
+# --- Python noise ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Stray artifacts ---
+*.deb
+opencode_debug.log
+
+# --- Heavy / user data (untracked by design) ---
+models/
+data/
+testruns/
+
+# --- External tooling (not app code) ---
+tools/
+
+# --- Local-only docs, scratch & lab (never commit) ---
+PLAN.md
+CHECKLIST.md
+NSFW_SPEC.md
+bigtest.py
+promptlab.py
+
+# --- Stray debug-session artifacts (not code) ---
+A_EXIT=0
+B_EXIT=0
+echo
